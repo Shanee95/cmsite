@@ -1,0 +1,152 @@
+/*                                                  __  
+ __                                                           |__|
+|   |    ____	___    __  	                    __	          ____        ___     ____
+|   |   |   |   \  |   |   \  \        ____         /   /   |   |   |   |    \    |   |    /  |  |
+|   |   |   |\   \ |   |    \  \    /        \    /   /      |   |   |   |\    \  |   |  /_/ |  |
+|   |   |   | \   \|   |     \  \/    /  \   \/    /        |   |   |   |  \   \ |   |       |   |
+|   |   |   |  \   \   |      \     /      \     /            |   |   |   |   \   \    |      |   | 
+|   |   |   |   \____|       \_/          \_/              |   |   |   |     \____|       |__|
+____________________________________________________________________
+
+Copyright ©2019 inwin1designs.com all rights reserved.
+If you wish to contact the creator of this website/design, you can do so under "CONTACT".
+
+CONTACT:
+Website: https://inwin1designs.com/
+Email: contact@inwin1designs.com
+
+____________________________________________________________________
+*/
+html,
+body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('IMG/bck.png');
+}
+
+::-webkit-scrollbar {
+        width: 1px;
+}
+
+::-webkit-scrollbar-track {
+        background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+        background: #2d2d2d;
+}
+
+.ipandcounter {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
+
+.ipandcounter li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+}
+
+.ipandcounter li:hover p {
+        border: solid 3px white;
+        transition-duration: 1s;
+}
+
+.ipandcounter p {
+        display: inline-block;
+        width: 300px;
+        padding: 20px;
+        background-color: #2d2d2d49;
+        font-family: 'Archivo Black', sans-serif;
+        color: rgba(255, 255, 255, 0.829);
+        border: solid 3px transparent;
+        transition-duration: 1s;
+}
+
+.logo_area {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        margin-top: 105px;
+}
+
+.logo_area img {
+        width: 200px;
+        height: 200px;
+}
+
+.navbar {
+        width: 100% !important;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Archivo Black', sans-serif;
+        margin-top: 55px
+}
+
+.navbar li {
+        display: inline-block;
+        list-style-type: none;
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        margin-right: 100px;
+        cursor: pointer;
+        transition-duration: 1s;
+        overflow: hidden;
+}
+
+.navbar li:Hover img {
+        width: 275px;
+        height: 225px;
+        transition-duration: 1s;
+}
+
+.navbar li:Hover h1 {
+        transition-duration: 1s;
+        background-color: #2d2d2d49;
+        border: solid 2px white;
+}
+
+.navbar h1 {
+        color: white;
+        border: solid 2px transparent;
+        transition-duration: 1s;
+}
+
+.navbar img {
+        width: 250px;
+        height: 200px;
+        transition-duration: 1s;
+}
+
+
+.footer {
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        color: rgba(255, 255, 255, 0.123);
+        font-family: 'Archivo Black', sans-serif !important;
+        font-size: 12px;
+}
+
+.footer a {
+        color: rgba(255, 255, 255, 0.479);
+}
+
+.ajs-message {
+        font-family: 'Archivo Black', sans-serif !important;
+        color: white;
+}
