@@ -60,8 +60,8 @@ body {
 }
 
 .logo_area img {
-        width: 525px;
-        height: 225px;
+        width: 285px;
+        height: 85px;
 	-webkit-animation-name: pulse;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
