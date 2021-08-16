@@ -11,6 +11,6 @@ window.addEventListener('load', function theseFunc() {
         document.querySelector('.copyIP').addEventListener('click', function copyIP() {
                 console.log('Copying the IP');
                 var clipboard = new ClipboardJS('.copyIP');
-                alertify.success('IP has been copied ;)');
+                alertify.success('IP copied to clipboard!');
         });
 });
