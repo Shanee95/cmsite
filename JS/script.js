@@ -1,6 +1,6 @@
 // Script regarding players, using MCAPI - https://mcapi.us/
 window.addEventListener('load', function theseFunc() {
-        MinecraftAPI.getServerStatus('mc.craftmine.co.uk', {
+        MinecraftAPI.getServerStatus('148.251.103.156', {
                 port: 25565
         }, function (err, status) {
                 if (err) {
