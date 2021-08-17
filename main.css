@@ -1,139 +1,52 @@
-html,
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
 body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: url('IMG/bck.png');
+  background-image: url('IMG/bck.png');
 }
 
-::-webkit-scrollbar {
-        width: 1px;
-}
-
-::-webkit-scrollbar-track {
-        background: #2d2d2d;
-}
-
-::-webkit-scrollbar-thumb {
-        background: #2d2d2d;
-}
-
-.ipandcounter {
-        width: 100%;
-        height: 50px;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-}
-
-.ipandcounter li {
-        display: inline-block;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        cursor: pointer;
-}
-
-.ipandcounter li:hover p {
-        border: solid 3px black;
-        transition-duration: 1s;
-}
-
-.ipandcounter p {
-        display: inline-block;
-        width: 300px;
-        padding: 20px;
-        background-color: #2d2d2d49;
-        font-family: 'Archivo Black', sans-serif;
-        color: rgba(255, 255, 255, 0.829);
-        border: solid 3px transparent;
-        transition-duration: 1s;
-}
-
-.logo_area {
-        width: 100%;
-        height: 225px;
-        margin: 0;
-        padding: 0;
-        margin-top: 15px;
-}
-
-.logo_area img {
-        width: 325px;
-        height: 225px;
-	-webkit-animation-name: pulse;
-	-webkit-animation-duration: 5s;
-	-webkit-animation-iteration-count: infinite;
-	animation-name: pulse;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
-}
-
-.navbar {
-        width: 100% !important;
-        height: 300px;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        font-family: 'Archivo Black', sans-serif;
-        margin-top: 55px
-}
-
-.navbar li {
-        display: inline-block;
-        list-style-type: none;
-        background-color: transparent;
-        width: 300px;
-        height: 300px;
-        margin-left: 100px;
-        margin-right: 100px;
-        cursor: pointer;
-        transition-duration: 1s;
-        overflow: hidden;
-}
-
-.navbar li:Hover img {
-        width: 275px;
-        height: 225px;
-        transition-duration: 1s;
-}
-
-.navbar li:Hover h1 {
-        transition-duration: 1s;
-        background-color: #2d2d2d49;
-        border: solid 2px white;
-}
-
-.navbar h1 {
-        color: white;
-        border: solid 2px transparent;
-        transition-duration: 1s;
-}
-
-.navbar img {
-        width: 250px;
-        height: 200px;
-        transition-duration: 1s;
+.cover-container {
+  max-width: 42em;
 }
 
 
-.footer {
-        width: 100%;
-        height: 55px;
-        position: absolute;
-        text-align: center;
-        bottom: 0;
-        color: rgba(255, 255, 255, 0.123);
-        font-family: 'Archivo Black', sans-serif !important;
-        font-size: 12px;
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
 }
 
-.footer a {
-        color: rgba(255, 255, 255, 0.479);
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.ajs-message {
-        font-family: 'Archivo Black', sans-serif !important;
-        color: white;
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
 }
